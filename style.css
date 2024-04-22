@@ -1,0 +1,213 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#f3f1f1;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  /* gap: 50px; */
+}
+
+.login-card {
+  padding: 4rem;
+  max-width: 36rem;
+  background-color: #c4c4c4;
+  border-radius: 12px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  background: url("img/Laundry.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.login-text > h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+input[type="date"] {
+  width: 13em;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.btn-group > button {
+  border: none;
+  padding: 6px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+  color: #31304d;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 30px;
+}
+
+footer {
+  padding: 20px;
+  background-color: #c4c4c4;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  border-radius: 12px;
+}
+
+nav {
+  padding: 2px;
+  background-color: #c4c4c4;
+  color: black;
+  border-radius: 12px;
+}
+
+.nav-list {
+  padding-right: 40px;
+  display: flex;
+  gap: 52px;
+  justify-content: flex-start;
+}
+
+.nav-item:nth-child(2) {
+  margin-right: auto;
+}
+
+.hero {
+  width: 100%;
+  background: url("img/image.png");
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.content > h3 {
+  font-weight: bold;
+}
+
+.paket {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  padding: 6px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 180px;
+}
+
+.paket-btn {
+  width: 89%;
+  border-radius: 6px;
+  padding: 12px;
+  background-color: #31304d;
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  width: 89%;
+  border-radius: 6px;
+  padding: 12px;
+  background-color: #b6bbc4;
+  color: white;
+  text-align: center;
+}
+
+.transkasi-btn {
+  border-radius: 6px;
+  padding: 12px;
+  background-color: #31304d;
+  color: white;
+  text-align: center;
+}
+
+.paket-loop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.detail {
+  background-color: #31304d;
+  color: white;
+  padding: 22px;
+  border-radius: 10px;
+  display: flex;
+  gap: 22px;
+}
+
+.detail-flex {
+  display: flex;
+  gap: 12rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.harga {
+  display: flex;
+  justify-content: space-between;
+}
